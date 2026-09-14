@@ -39,8 +39,8 @@ Data engineering pipeline that transforms insurance customer data and applies Li
 
 ```bash
 # Clone repo
-git clone https://github.com/your-username/insurance-prediction-pipeline.git
-cd insurance-prediction-pipeline
+git clone https://github.com/pfcperez/insurance-premium-prediction.git
+cd insurance-premium-prediction
 
 # Create virtual environment
 python -m venv venv
@@ -48,11 +48,6 @@ source venv/bin/activate
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-
-# Download data
-# Kaggle: Medical Cost Personal Datasets
-# Place insurance.csv in /data/raw/
-```
 
 ---
 
